@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Launcher</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#111827">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #111827;
+        }
+        .launcher-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="launcher-container p-4 text-center">
+        <div class="mb-8">
+            <img src="/icon.svg" alt="Chess King Icon" class="w-32 h-32 md:w-48 md:h-48 mx-auto invert drop-shadow-[0_5px_15px_rgba(255,255,255,0.1)]">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-100 mb-4">Classic Chess</h1>
+        <p class="text-lg md:text-xl text-gray-400 mb-12">Ready to play?</p>
+        <a href="/index.html" class="px-12 py-4 bg-blue-700 hover:bg-blue-600 rounded-md text-white font-bold text-2xl transition-all duration-300 transform hover:scale-105 tracking-wider shadow-lg">
+            Play Game
+        </a>
+    </div>
+</body>
+</html>

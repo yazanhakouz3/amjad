@@ -1,0 +1,5 @@
+{
+  "name": "chess",
+  "description": "A classic, animated chess game that can be installed on your device and played offline. Features move validation, check/checkmate detection, and an AI opponent.",
+  "requestFramePermissions": []
+}
